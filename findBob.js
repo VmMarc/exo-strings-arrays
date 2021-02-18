@@ -30,3 +30,4 @@ if (msg2.includes(`BOB`)) {
   console.log(`Bob n'est pas dans ce texte`)
 }
 
+//test
