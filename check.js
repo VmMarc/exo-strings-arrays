@@ -1,12 +1,8 @@
-const msg = "JS, ECMAScript, esm6 peuvent être considérés comme des alias de Javascript";
+let msg = 'JS, ECMAScript, esm6 peuvent être considérés comme des alias de Javascript'
+let word = 'Javascript'
 
-const splitMsg = msg.split(" ");
-
-console.log(splitMsg);
-
-let count = 0
-
-for (let i = 0; i < splitMsg.length; i++)
-  if (splitMsg[i] === `Javascript`)
-    count++
-console.log(`Il y a ${count} foix le mot Javascript dans ce texte`)
+if (msg.includes(word)) {
+  console.log(`The word "${word}" is included on the text :\n${msg}`)
+} else {
+  console.log(`This text does not includes the word "${word}" in it.`)
+}
