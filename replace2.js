@@ -2,6 +2,11 @@ const txt = `In cryptography, Alice and Bob are fictional characters commonly us
 As the use of Alice and Bob became more widespread, additional characters were added, sometimes each with a particular meaning.
 The most common characters are Alice and Bob.Eve, Mallory, and Trent are also common names.`
 
-const newTxt = txt.replace(/Alice/gi, `Victor`);
+let FirtName = 'Victor'
+let newTxt = txt.replace(/Alice/gi, FirtName);
+
+/*Ou en utilisant .replaceALL
+let newTxt = txt.replaceAll(FirtName)
+*/
 
 console.log(newTxt);
